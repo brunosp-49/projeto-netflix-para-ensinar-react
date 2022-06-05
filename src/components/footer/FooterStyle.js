@@ -6,7 +6,7 @@ align-items: center;
 justify-content: center;
 color: #fff;
 height: 10vh;
-font-size: 1.2vw;
+font-size: 2.4vh;
 background-color: #000;
 border-top: 1px solid gray;
 `
