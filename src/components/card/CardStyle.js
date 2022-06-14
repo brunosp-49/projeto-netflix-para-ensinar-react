@@ -1,6 +1,7 @@
 import styled from "styled-components"
+import { Link } from "react-router-dom";
 
-export const CardContainer = styled.div`
+export const CardContainer = styled(Link)`
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -9,6 +10,7 @@ height: 100%;
 width: 100%;
 border: 1px solid #fff;
 border-radius: 5px;
+text-decoration: none;
 :hover{
     cursor: pointer;
     border: 1px solid #e50914;
@@ -21,6 +23,7 @@ border-radius: 5px;
     height: 20%;
     align-self: center;
     font-size: 2vh;
+    color: #fff;
 }
 img{
     width: 100%;
